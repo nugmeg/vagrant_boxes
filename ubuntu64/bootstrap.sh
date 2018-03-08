@@ -11,5 +11,9 @@ git clone --depth=1 https://github.com/ISSA-NU/buffer_overruns.git /home/vagrant
 chown -R vagrant:vagrant /home/vagrant/buffer_overruns
 
 # gear up vim
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+git clone --depth=1 https://github.com/amix/vimrc.git /home/vagrant/.vim_runtime
 sh /home/vagrant/.vim_runtime/install_awesome_vimrc.sh
+
+# gear up gdb
+git clone https://github.com/longld/peda.git /home/vagrant/peda
+echo "source /home/vagrant/peda/peda.py" >> /home/vagrant/.gdbinit
