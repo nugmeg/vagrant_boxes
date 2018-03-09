@@ -35,6 +35,8 @@ vagrant ssh
 ```
 to login.
 
+After logging into the vm, verify that in the vagrant home directory, there is a `buffer_overruns` subdirectory where all the materials needed for this workshop are stored.
+
 ## Provision
 In the *ubuntu32* or *ubuntu64* directory, do 
 ```
